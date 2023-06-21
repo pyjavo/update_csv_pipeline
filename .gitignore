@@ -143,7 +143,7 @@ airflow/git_version
 airflow/www/static/coverage/
 airflow/www/*.log
 airflow/logs/
-airflow-webserver.pid
+airflow/airflow-webserver.pid
 standalone_admin_password.txt
 warnings.txt
 
