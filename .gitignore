@@ -133,3 +133,31 @@ dmypy.json
 
 # Mac files
 .DS_Store
+
+# Airflow sqlite databases
+airflow.db
+unittests.db
+
+# Airflow temporary artifacts
+airflow/git_version
+airflow/www/static/coverage/
+airflow/www/*.log
+airflow/logs/
+airflow-webserver.pid
+standalone_admin_password.txt
+warnings.txt
+
+# Airflow log files when airflow is run locally
+airflow-*.err
+airflow-*.out
+airflow-*.log
+airflow-*.pid
+.airflow_db_initialised
+
+# Provider-related ignores
+/provider_packages/CHANGELOG.txt
+/provider_packages/MANIFEST.in
+/airflow/providers/__init__.py
+
+# used to checkout target-branch in CI
+/target-airflow
