@@ -1,0 +1,43 @@
+query = """
+INSERT INTO orders (
+  order_number,
+  order_status,
+  customer_email,
+  preferred_delivery_date,
+  preferred_delivery_hours,
+  sales_person,
+  notes,
+  address,
+  neighbourhood,
+  city,
+  creation_date,
+  source,
+  warehouse,
+  shopify_id,
+  sales_person_role,
+  order_type,
+  is_pitayas,
+  discount_applications,
+  payment_method
+) VALUES (
+  '{order_number}',
+  '{order_status}',
+  '{customer_email}',
+  '{preferred_delivery_date}',
+  '{preferred_delivery_hours}',
+  '{sales_person}',
+  '{notes}',
+  '{address}',
+  '{neighbourhood}',
+  '{city}',
+  '{creation_date}',
+  '{source}',
+  '{warehouse}',
+  {shopify_id},
+  '{sales_person_role}',
+  '{order_type}',
+  {is_pitayas},
+  '{discount_applications}',
+  '{payment_method}'
+);
+"""

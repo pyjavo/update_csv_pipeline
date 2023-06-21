@@ -60,12 +60,14 @@ Make sure you have docker installed on local machine.
    use `pssd` for password
    ```
 
+### Documentation
+Recommended docstring format is [Google format](https://google.github.io/styleguide/pyguide.html#381-docstrings)
 
 <!-- LICENSE -->
 ## License
-
 Distributed under the MIT License. See `LICENSE` for more information.
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [product-screenshot]: Capture.PNG
+
