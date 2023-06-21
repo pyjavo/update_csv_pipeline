@@ -33,9 +33,9 @@ Make sure you have docker installed on local machine.
    git clone https://github.com/pyjavo/update_csv_pipeline
    ```
 
-2. Create directory /data at the root of the project.
+2. Create directory `/data` at the root of the project.
 
-3. Save file archivo.csv within /data directory.
+3. Save file `archivo.csv` within `/data` directory.
 
 4. Run
    ```sh
