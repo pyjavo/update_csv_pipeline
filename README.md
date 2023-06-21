@@ -37,22 +37,29 @@ Make sure you have docker installed on local machine.
 
 3. Save file `archivo.csv` within `/data` directory.
 
-4. Run
+4. Build
    ```sh
     docker-compose build
+   ```
+5. Create DB for server service
+   ```sh
+   docker-compose run --rm server create_db
+   ```
+6. Run
+   ```sh
     docker-compose up
    ```
-5. Open Airflow web browser
+7. Open Airflow web browser
    ```JS
    Navigate to `http://localhost:8000/` on the browser
-   activate and trigger dbt_load_dag
-   activate and trigger dbt_dbt_dag
+   use `admin` for username
+   use `admin` for password
    ```
-6. Access redash dashboard
+8. Access redash dashboard
    ```JS
    Navigate to `http://localhost:5000/` on the browser
    ```
-7. Access your mysql database using adminar
+9. Access your mysql database using adminar
    ```JS
    Navigate to `http://localhost:8080/` on the browser
    choose mysql databse
