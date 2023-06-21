@@ -1,8 +1,8 @@
-apache-airflow==2.3.0
-SQLAlchemy==1.4.9
+apache-airflow==2.1.4
+SQLAlchemy
 apache-airflow-providers-postgres
 apache-airflow-providers-mysql
-dbt-mysql==1.1.0
-mysql-connector-python==8.0.33
-pandas==2.0.2
-watchdog==3.0.0
+dbt-mysql
+mysql-connector-python
+pandas
+watchdog
