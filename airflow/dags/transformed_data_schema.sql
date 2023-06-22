@@ -13,7 +13,7 @@ CREATE TABLE  IF NOT EXISTS `transformed_data` (
   `creation_date` DATE NOT NULL,
   `source` VARCHAR(255) NULL,
   `warehouse` VARCHAR(255) NULL,
-  `shopify_id` INT NOT NULL,
+  `shopify_id` VARCHAR(255) NOT NULL,
   `sales_person_role` VARCHAR(255) NULL,
   `order_type` VARCHAR(255) NULL,
   `is_pitayas` BOOLEAN NULL,

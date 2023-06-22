@@ -12,11 +12,11 @@ CREATE TABLE  IF NOT EXISTS `raw_data` (
   `creation_date` DATE NOT NULL,
   `source` VARCHAR(255) NULL,
   `warehouse` VARCHAR(255) NULL,
-  `shopify_id` INT NULL,
+  `shopify_id` VARCHAR(255) NULL,
   `sales_person_role` VARCHAR(255) NULL,
   `order_type` VARCHAR(255) NULL,
   `is_pitayas` BOOLEAN NULL,
   `discount_applications` VARCHAR(255) NULL,
   `payment_method` VARCHAR(255) NULL,
-  PRIMARY KEY (`creation_date`)
+  PRIMARY KEY (`shopify_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
