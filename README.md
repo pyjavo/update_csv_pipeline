@@ -59,12 +59,13 @@ Make sure you have docker installed on local machine.
    ```JS
    Navigate to `http://localhost:5000/` on the browser
    ```
-9. Access your mysql database using adminar
+9. Access your MySQL database using adminer
    ```JS
    Navigate to `http://localhost:8080/` on the browser
    choose mysql databse
    use `root` for username
-   use `pssd` for password
+   use `root` for password
+   use `mysqldb` for database
    ```
 
 ### Documentation
