@@ -9,7 +9,7 @@ CREATE TABLE  IF NOT EXISTS `raw_data` (
   `address` VARCHAR(255) NULL,
   `neighbourhood` VARCHAR(255) NULL,
   `city` VARCHAR(255) NULL,
-  `creation_date` DATE NULL,
+  `creation_date` DATE NOT NULL,
   `source` VARCHAR(255) NULL,
   `warehouse` VARCHAR(255) NULL,
   `shopify_id` INT NULL,
@@ -18,5 +18,5 @@ CREATE TABLE  IF NOT EXISTS `raw_data` (
   `is_pitayas` BOOLEAN NULL,
   `discount_applications` VARCHAR(255) NULL,
   `payment_method` VARCHAR(255) NULL,
-  PRIMARY KEY (`order_number`)
+  PRIMARY KEY (`creation_date`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
