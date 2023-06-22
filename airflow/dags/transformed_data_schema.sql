@@ -1,6 +1,6 @@
 CREATE TABLE  IF NOT EXISTS `transformed_data` (
   `ID` INT NOT NULL AUTO_INCREMENT,
-  `order_number` INT NOT NULL,
+  `order_number` VARCHAR(255) NOT NULL,
   `order_status` VARCHAR(255) NOT NULL,
   `customer_email` VARCHAR(255) NULL,
   `preferred_delivery_date` DATE NULL,
